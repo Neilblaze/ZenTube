@@ -1,0 +1,26 @@
+{
+    "name": "zentube-pm2-api",
+    "description": "",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Neilblaze/zentube.git"
+    },
+    "author": "Pratyay Banerjee (https://neilblaze.live/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Neilblaze/zentube/issues"
+    },
+    "homepage": "https://github.com/Neilblaze/zentube#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "ytdl-core": "^4.9.1"
+    },
+    "devDependencies": {}
+}
